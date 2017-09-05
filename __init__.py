@@ -62,6 +62,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    # from .perv_sum import PervSum
-    # return PervSum(iface)
-    pass
+    from .application import DoNothingYet
+    return DoNothingYet(iface)
